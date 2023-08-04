@@ -1,0 +1,478 @@
+header {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  background: #43C6AC;
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #e3eb88, #00896d); */
+  background: -webkit-linear-gradient(to right, #00896d, #e3eb88);
+
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #ecf680, #08a989); */
+  background: linear-gradient(to right, #08a989, #ecf680);
+
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.list-logo {
+  /* padding-bottom: 5%; */
+  /* font-size: 3.5rem; */
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  color: white;
+  text-shadow:
+  0 0 5px rgb(179, 72, 179), 0 0 10px rgb(183, 91, 183),
+  0 0 20px rgb(202, 97, 202), 0 0 40px rgb(189, 94, 189);
+
+
+}
+#todo-color{
+  color: rgb(241, 170, 241);
+}
+
+
+
+#logo-svg {
+  color:orange;
+  box-shadow:
+  0 0 5px rgb(235, 156, 11), 0 0 10px rgb(235, 156, 11),
+  0 0 20px rgb(235, 156, 11), 0 0 40px rgb(235, 156, 11);
+  border-radius: 5px;
+}
+
+#home,
+#about {
+  color: white;
+}
+
+#home:hover {
+  color: rgb(210, 210, 210);
+}
+
+#about:hover {
+  color: rgb(210, 210, 210);
+}
+
+#body {
+  background: #43C6AC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F8FFAE, #43C6AC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#all-save {
+  color: green;
+  margin-top: 7px;
+  background: rgb(219, 241, 219);
+}
+
+#a1,
+#a2,
+#a3 {
+  color: red;
+  margin-top: 7px;
+  background: rgb(244, 236, 236);
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+/* #home{
+  /* color: black; */
+/* color: black; 
+} */
+.update-controller {
+  display: none;
+}
+
+.fade {
+  display: none;
+}
+
+.to-do-input {
+  background: transparent;
+}
+
+#t,
+#d {
+  font-style: italic;
+  margin-left: 3px;
+  margin-bottom: 2px;
+  font-size: larger;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  height: 60vh;
+  background-color: transparent;
+  margin-inline: 450px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+#item {
+  background: transparent;
+  border: none;
+  outline: none;
+  background-color: rgb(232, 232, 232);
+  border-radius: 30px;
+}
+
+#item1 {
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  background-color: rgb(232, 232, 232);
+  border-radius: 20px;
+}
+
+#item::placeholder {
+  font-style: italic;
+}
+
+#item1::placeholder {
+  font-style: italic;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+
+  margin-inline: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+.input-controller {
+  display: flex;
+  gap: 20px;
+}
+
+.show-list {
+  width: 79%;
+  outline: none;
+  border: none;
+  resize: none;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  font-weight: bolder;
+
+}
+
+#scrollbar {
+
+  scrollbar-face-color: #ff8c00;
+  scrollbar-track-color: #fff8dc;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-highlight-color: #fff8dc;
+  scrollbar-shadow-color: #d2691e;
+  scrollbar-3dlight-color: #ffebcd;
+  scrollbar-darkshadow-color: #8b0000;
+
+}
+
+.edit-controller {
+  display: flex;
+
+  gap: 10px;
+  margin-top: 5px;
+
+}
+
+.to-do-list {
+  margin-block: 50px;
+  margin-bottom: 20px;
+}
+
+#edit-time {
+  background: transparent;
+  border: none;
+}
+
+.saveBtn,
+.cancelBtn {
+  border-radius: 10px;
+  margin-bottom: 5px;
+
+}
+
+/* ::-webkit-resizer .show-list {
+  border: 2px solid black;
+  background: red;
+  box-shadow: 0 0 5px 5px blue;
+  outline: 2px solid yellow;
+} */
+.deleteBtn {
+  opacity: 0.5;
+}
+
+.deleteBtn:hover {
+  opacity: 1;
+  color: black;
+}
+
+.editBtn {
+  opacity: 0.5;
+}
+
+.editBtn:hover {
+  opacity: 1;
+  color: black;
+}
+
+#enter {
+  color: black;
+  border-color: black;
+}
+
+.saveBtn,
+.cancelBtn {
+  background: transparent;
+}
+
+.scrollable-element {
+  scrollbar-color: red yellow;
+}
+.about-header{
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 40px;
+  
+}
+.about-para{
+  margin-inline: 300px;
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.thanks{
+  font-style: italic;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#footer{
+  box-shadow: 4px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  background: #43C6AC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e3eb88, #00896d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ecf680, #08a989);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+@media(max-width:760px) {
+  #logo {
+    margin-top: 12px;
+  }
+
+  #home,
+  #about {
+    color: white;
+    margin-top: 7px
+  }
+
+  .form {
+    /* display: flex;  */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    /* height: 60vh; */
+    background-color: transparent;
+    margin-inline: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  #item {
+    display: flex;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: rgb(225, 222, 222);
+    border-radius: 30px;
+    /* width: 230px; */
+  }
+
+  #item1 {
+    display: flex;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: rgb(225, 222, 222);
+    border-radius: 20px;
+    /* width: 230px; */
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+
+    margin-inline: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+
+
+
+  }
+
+  .input-controller {
+    display: flex;
+    gap: 0px;
+  }
+
+  #edit-time {
+    background: transparent;
+    border: none;
+    margin-top: 9px;
+  }
+
+  .edit-controller {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 13px;
+    margin-right: 10px;
+
+  }
+  .about-header{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 30px;
+    
+  }
+  .about-para{
+    margin-inline: 50px;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .thanks{
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media(min-width:760px) and (max-width:1223px) {
+  #logo {
+    margin-top: 5px;
+  }
+
+  .form {
+    /* display: flex;  */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    /* height: 60vh; */
+    background-color: transparent;
+    margin-inline: 150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  #item {
+    display: flex;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: rgb(225, 222, 222);
+    border-radius: 30px;
+    /* width: 230px; */
+  }
+
+  #item1 {
+    display: flex;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: rgb(225, 222, 222);
+    border-radius: 20px;
+    /* width: 230px; */
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+
+    margin-inline: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+
+
+
+  }
+
+  .input-controller {
+    display: flex;
+    gap: 9px;
+  }
+
+  #edit-time {
+    background: transparent;
+    border: none;
+    margin-top: 17px;
+  }
+
+  .edit-controller {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    margin-right: 8px;
+
+  }
+  .about-header{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 35px;
+    
+  }
+  .about-para{
+    margin-inline: 300px;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .thanks{
+    font-style: italic;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+}
